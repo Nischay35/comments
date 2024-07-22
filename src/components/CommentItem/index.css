@@ -1,0 +1,83 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.initial-container {
+  border-radius: 50px;
+  padding: 4px;
+  margin: 4px;
+}
+.text {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 4px;
+}
+.user {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 13px;
+  text-align: center;
+}
+.comments {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 12px;
+}
+.date-text {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.like-image {
+  align-self: flex-start;
+  height: 20px;
+  width: 20px;
+  margin: 4px;
+}
+.delete-image {
+  align-self: flex-end;
+  height: 20px;
+  width: 20px;
+  margin: 4px;
+}
